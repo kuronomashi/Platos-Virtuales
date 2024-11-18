@@ -1,5 +1,4 @@
-import { Canvas, useThree } from '@react-three/fiber';
-import { useRef, useEffect } from 'react';
+import { Canvas} from '@react-three/fiber';
 import { OrbitControls, Stage } from '@react-three/drei';
 import { Suspense } from 'react';
 import { Dish } from '../types';
