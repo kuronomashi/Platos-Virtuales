@@ -15,6 +15,9 @@ import { FeedbackSection } from './components/FeedbackSection';
 import { AdminDashboard } from './components/AdminDashboard';
 import { dishes } from './data/dishes';
 import { CartProvider } from './contexts/CartContext';
+import { EnhancedBenchmarkVisualization } from './components/Benchmark';
+import { FoodMenuBanner } from './components/Proximamamente';
+
 
 export type Section = 'home' | 'menu' | 'about' | 'contact';
 
@@ -30,7 +33,7 @@ export default function App() {
             <Route
               path="/"
               element={
-                <div className="space-y-16">
+                <div className="space-y-16 mb-8">
                   <Hero />
                   <div className="px-4 md:px-6 max-w-7xl mx-auto w-full">
                     <SpecialOffers />
@@ -43,6 +46,7 @@ export default function App() {
                       <div className="space-y-8">
                         <NutritionPanel dish={selectedDish} />
                         <FeedbackSection />
+                        <FoodMenuBanner/>
                       </div>
                     </div>
                   </div>
@@ -51,6 +55,7 @@ export default function App() {
             />
 
             {/* Otras rutas */}
+            <Route path="/Bench" element={<EnhancedBenchmarkVisualization />} />
             <Route path="/Admin" element={<AdminDashboard />} />
             <Route path="/menu" element={<Menu />} />
             <Route path="/about" element={<About />} />

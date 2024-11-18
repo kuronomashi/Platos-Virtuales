@@ -10,13 +10,13 @@ export function Hero() {
         <div className="grid lg:grid-cols-2 gap-8 py-16">
           <div className="flex flex-col justify-center space-y-8">
             <div>
-              <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl">
-                We're <span className="text-rose-500">Serious</span> For
+              <h1 className="text-4xl font-bold sm:text-4xl md:text-5xl lg:text-5xl">
+              Descubre <span className="text-rose-500">sabores</span>,
                 <br />
-                <span className="text-orange-500">Food</span> & Delivery.
+                satisface tu <span className="text-orange-500">curiosidad</span>  
               </h1>
               <p className="mt-4 text-muted-foreground max-w-xl">
-              Los mejores cocineros y los mejores repartidores a tu servicio. Comida sabrosa y caliente que llegará a ti en 60 minutos.
+              Fusionamos la tecnología con la gastronomía para ofrecer una experiencia que deleite tus sentidos y llegan directo a tu paladar.
               </p>
             </div>
 

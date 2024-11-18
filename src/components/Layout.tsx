@@ -28,6 +28,7 @@ export function Layout({ children }: LayoutProps) {
     { label: 'Menu', path: '/menu' },
     { label: 'About', path: '/about' },
     { label: 'Contact', path: '/contact' },
+    { label: 'BenchMark', path: '/Bench' },
     ...(user?.role === 'admin' ? [{ label: 'Admin', path: 'admin' }] : []),
   ];
 
