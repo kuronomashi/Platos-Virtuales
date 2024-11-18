@@ -57,9 +57,9 @@ export const dishes = [
     modelPath: '/resorses/modelados 3d/Ajiaco.glb',
     nutrients: {
       calories: 700,
-    protein: 20,
-    carbs: 50,
-    fat: 25,
+      protein: 20,
+      carbs: 50,
+      fat: 25,
     },
     tags: ["tradicional", "sopa", "Bogotá"],
     price: 12.50
@@ -92,15 +92,15 @@ export const dishes = [
   },
   {
     id: 8,
-    name: "Empanada de Carne",
-    modelPath: "/resorses/modelados 3d/Empanadas.glb",
+    name: "Flan de Vainilla",
+    modelPath: "/resorses/modelados 3d/Flan.glb",
     nutrients: {
-      calories: 300,
-      protein: 15,
-      carbs: 25,
-      fat: 18
+      calories: 150,
+      protein: 4,
+      carbs: 30,
+      fat: 6
     },
-    tags: ["Tradicional", "Carnes", "Frita"],
+    tags: ["Dulce", "Postre", "Tradicional"],
     price: 3.50
   },
   {
@@ -116,6 +116,6 @@ export const dishes = [
     tags: ["Clásico", "Rápido", "Alta proteína"],
     price: 7.00
   }
-  
+
 
 ];
