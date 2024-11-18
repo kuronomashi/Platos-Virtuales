@@ -1,4 +1,5 @@
-import { Canvas } from '@react-three/fiber';
+import { Canvas, useThree } from '@react-three/fiber';
+import { useRef, useEffect } from 'react';
 import { OrbitControls, Stage } from '@react-three/drei';
 import { Suspense } from 'react';
 import { Dish } from '../types';
@@ -9,7 +10,7 @@ interface DishViewerProps {
 }
 export function DishViewer({ dish}: DishViewerProps) {
   return (
-    <Canvas camera={{ position: [0, 0, 5], fov: 50 }}>
+    <Canvas camera={{ position: [0, 0, 8], fov: 50 }}>
       <Suspense fallback={null}>
         <Stage environment="city" intensity={0.6}>
           <Model modelPath={dish.modelPath}/>
@@ -19,6 +20,7 @@ export function DishViewer({ dish}: DishViewerProps) {
         enablePan={false}
         minPolarAngle={Math.PI/4}
         maxPolarAngle={Math.PI/2}
+        maxDistance={12}
       />
     </Canvas>
   );
