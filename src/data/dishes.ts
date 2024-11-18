@@ -40,16 +40,16 @@ export const dishes = [
   },
   {
     id: 4,
-    name: 'Bandeja Paisa',
-    modelPath: '/resorses/modelados 3d/Bandeja.glb',
+    name: "Panqueque Clásico",
+    modelPath: "/resorses/modelados 3d/Panquque.glb",
     nutrients: {
-      calories: 1200,
-    protein: 40,
-    carbs: 90,
-    fat: 60,
+      calories: 200,
+      protein: 6,
+      carbs: 40,
+      fat: 5
     },
-    tags: ["tradicional", "alto-en-proteína", "comida-típica"],
-    price: 15.00
+    tags: ["Desayuno", "Dulce", "Rápido"],
+    price: 4.00
   },
   {
     id: 5,
@@ -63,5 +63,59 @@ export const dishes = [
     },
     tags: ["tradicional", "sopa", "Bogotá"],
     price: 12.50
+  },
+  {
+    id: 6,
+    name: "Pizza Margarita",
+    modelPath: "/resorses/modelados 3d/Pizzaa.glb",
+    nutrients: {
+      calories: 250,
+      protein: 8,
+      carbs: 35,
+      fat: 10
+    },
+    tags: ["Italiana", "Vegetariana", "Bajo en grasa"],
+    price: 8.00
+  },
+  {
+    id: 7,
+    name: "Hamburguesa Clásica",
+    modelPath: "/resorses/modelados 3d/Burger.glb",
+    nutrients: {
+      calories: 500,
+      protein: 25,
+      carbs: 40,
+      fat: 30
+    },
+    tags: ["Carne", "Rápida", "Alta en calorías"],
+    price: 10.00
+  },
+  {
+    id: 8,
+    name: "Empanada de Carne",
+    modelPath: "/resorses/modelados 3d/Empanadas.glb",
+    nutrients: {
+      calories: 300,
+      protein: 15,
+      carbs: 25,
+      fat: 18
+    },
+    tags: ["Tradicional", "Carnes", "Frita"],
+    price: 3.50
+  },
+  {
+    id: 9,
+    name: "Sándwich Club",
+    modelPath: "/resorses/modelados 3d/Sandwoch.glb",
+    nutrients: {
+      calories: 400,
+      protein: 20,
+      carbs: 40,
+      fat: 15
+    },
+    tags: ["Clásico", "Rápido", "Alta proteína"],
+    price: 7.00
   }
+  
+
 ];
