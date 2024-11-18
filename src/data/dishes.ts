@@ -15,7 +15,7 @@ export const dishes = [
   {
     id: 2,
     name: 'Pasta Carbonara',
-    modelPath: '/resorses/modelados 3d/pizza.glb',
+    modelPath: '/resorses/modelados 3d/Pasta.glb',
     nutrients: {
       calories: 500,
       protein: 20,
@@ -28,7 +28,7 @@ export const dishes = [
   {
     id: 3,
     name: 'Salmón a la parrilla',
-    modelPath: '/resorses/modelados 3d/EnsaladaCesar.glb',
+    modelPath: '/resorses/modelados 3d/Salmon.glb',
     nutrients: {
       calories: 400,
       protein: 30,
@@ -41,7 +41,7 @@ export const dishes = [
   {
     id: 4,
     name: 'Bandeja Paisa',
-    modelPath: '/resorses/modelados 3d/EnsaladaCesar.glb',
+    modelPath: '/resorses/modelados 3d/Bandeja.glb',
     nutrients: {
       calories: 1200,
     protein: 40,
@@ -54,7 +54,7 @@ export const dishes = [
   {
     id: 5,
     name: 'Ajiaco',
-    modelPath: '/resorses/modelados 3d/EnsaladaCesar.glb',
+    modelPath: '/resorses/modelados 3d/Ajiaco.glb',
     nutrients: {
       calories: 700,
     protein: 20,
